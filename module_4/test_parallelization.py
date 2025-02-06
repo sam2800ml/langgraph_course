@@ -10,7 +10,7 @@ from langchain_ollama import ChatOllama
 import operator
 import os
 
-Tavily_API_KEY = "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"
+Tavily_API_KEY = ""
 os.environ["TAVILY_API_KEY"] = Tavily_API_KEY
 
 class State(TypedDict):
