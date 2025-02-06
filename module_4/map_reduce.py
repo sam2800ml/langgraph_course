@@ -20,7 +20,7 @@ from langchain_groq import ChatGroq
 
 load_dotenv()
 
-os.environ["GROQ_API_KEY"] = "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"
+os.environ["GROQ_API_KEY"] = ""
 print()
 subject_prompt = """Generate a comma separated list of between 2 and 5 examples related to: {topic}"""
 joke_prompt = """Generate a joke about {subject}"""
